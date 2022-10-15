@@ -50,6 +50,8 @@ opt.whichwrap:append "<>[]hl"
 
 g.mapleader = " "
 
+opt.foldmethod = "indent"
+opt.foldenable = false
 -- disable some builtin vim plugins
 local default_plugins = {
   "2html_plugin",
