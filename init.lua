@@ -32,3 +32,5 @@ end
 pcall(require, "custom")
 
 require("core.utils").load_mappings()
+require('leap').add_default_mappings(true)
+

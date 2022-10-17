@@ -50,7 +50,8 @@ opt.whichwrap:append "<>[]hl"
 
 g.mapleader = " "
 
-opt.foldmethod = "indent"
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldenable = false
 -- disable some builtin vim plugins
 local default_plugins = {
